@@ -1,0 +1,106 @@
+body {
+    height: 90vh;
+    width: 100%;
+    display: flex;
+    background-color: black;
+    margin: 2% 2%;
+    overflow-x: hidden; 
+    overflow-y: hidden;
+    justify-content: center;
+}
+#bg-image {
+    position: absolute;
+    height: 100vh;
+    z-index: 0;
+    width: 100%;
+    background-image: url(img/filmes.png);
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: center;
+    filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+#container {
+    display: flex;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    align-content: center;
+    align-items: center;
+}
+
+#mainAdvertise {
+    z-index: 1;
+    position: absolute;
+    width: 40%;
+    height: 100vh;
+    text-align: center;
+    align-content: center;
+}
+
+#mainAdvertise p {
+    color: white;
+    font-family: 'roboto';
+    text-align: center;
+    font-weight: 500;
+    font-size: large;
+    letter-spacing: 2px;
+    margin: 0px;
+    margin-bottom: 3%;
+    margin-top: 2%;
+}
+
+#mainButtons {
+    display: flex;
+    justify-content: center;
+    margin-top: 4%;
+    gap: 20px;
+}
+
+#parcelabotao {
+    background: #0066A2;
+    color: white;
+    border-style: outset;
+    font-weight: 500;
+    font-size: 15px;
+    border-color: lightblue;
+    height: 50px;
+    width: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    border-radius: 7px;
+    text-shadow: none;
+    width: 40%;
+}
+
+#metflixbotao {
+    background: none;
+    font-size: 15px;
+    color: white;
+    border-style: outset;
+    border-color: white;
+    height: 50px;
+    width: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    letter-spacing: 1px;
+    border-radius: 7px;
+    text-shadow: none;
+    width: 40%;
+}
+
+#footerMetflix {
+    height: 10%;
+    width: 95%;
+    position: fixed;
+    bottom: 0;
+    align-content: center;
+}
+
+#footerMetflix i {
+    color: white;
+    opacity: 0.5;
+    font-style: normal;
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
